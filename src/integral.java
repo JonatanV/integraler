@@ -17,5 +17,9 @@ public class integral {
         double k = 250;
         return k*x;
     }
+
+    public static void main(String[] args) {System.out.println(integral(1.1, 2.3));}
+
+
 }
 
