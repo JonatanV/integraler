@@ -1,7 +1,7 @@
 public class integraler {
 
-
     static double integral(double a, double b) {
+
         int n = 1000;
         double deltax = (b - a) / n;
         double resultat = 0;
@@ -14,12 +14,9 @@ public class integraler {
 
     }
     public static double f(double x){
+
         double k = 250;
         return k*x;
     }
-
-    public static void main(String[] args) {System.out.println(integral(1.1, 2.3));}
-
-
 }
 
