@@ -1,8 +1,8 @@
-public class integral {
+public class integraler {
 
 
-    public static double integral(double a, double b) {
-        int n = 1;
+    static double integral(double a, double b) {
+        int n = 1000;
         double deltax = (b - a) / n;
         double resultat = 0;
 
